@@ -1,0 +1,15 @@
+main: com.allek.mc.ExplosivePickaxe.Driver
+name: ExplosivePickaxe
+version: 1.0.0
+description: A plugin that gives a player an explosive pickaxe with considerably more damage
+depend: [WorldGuard]
+commands:
+  epick:
+    aliases: [ep, explosivepickaxe]
+    description: Gives the player access to get the pickaxe
+    permission: epick.give
+    usage: Use /explosivepickaxe [player] [player]
+permissions:
+  epick.give:
+    description: Access to use the plugin
+    default: op
